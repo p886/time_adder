@@ -1,0 +1,5 @@
+#! /usr/bin/env ruby
+
+require_relative '../lib/time_adder.rb'
+
+TimeAdder
