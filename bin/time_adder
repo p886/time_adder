@@ -1,5 +1,9 @@
 #! /usr/bin/env ruby
 
-require_relative '../lib/time_adder.rb'
+require_relative '../lib/aggregator.rb'
 
-TimeAdder
+groups = Aggregator.new.by_note
+
+groups.each do |note, activities|
+  puts "#{note}: #{activities.map(&:length).reduce(:+) / 3600}"
+end
