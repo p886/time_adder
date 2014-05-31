@@ -19,10 +19,10 @@ A simple program that takes input from [TimeTrap](https://github.com/samg/timetr
 
 ## Usage
 
-Provided you have added the executable to your `$PATH` as described in [Installation][installtion]:
+Provided you have added the executable to your `$PATH` as described in [Installation][installation]:
 
 ```
 timetrap today --format json > time_adder
 ```
 
-[installtion]: #installation
+[installation]: #installation
