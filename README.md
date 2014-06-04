@@ -14,7 +14,7 @@ A simple program that takes input from [TimeTrap](https://github.com/samg/timetr
 * add `/bin/time_adder` to your `$PATH`. One way would be to symlink the `/usr/bin/timetrap` to `/bin/timetrap`. Assuming this folder is located at `~/time_adder` the following command will establish the link:
 
   ```
-  ln -s /usr/bin/time_adder ~/time_adder/bin/time_adder
+  ln -s ~/time_adder/bin/time_adder /usr/bin/time_adder
   ```
 
 ## Usage
